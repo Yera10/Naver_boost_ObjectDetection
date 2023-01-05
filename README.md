@@ -23,7 +23,10 @@
 </div align="center">
 
 ## Timeline & My Role
-![timeline](image\prj_timeline.png)
+<p align="center">
+<img src="./image\prj_timeline.png" width="700">
+</p>
+
 > - github Issue, PR template 등록 및 사용권장
 > - WandB logging 구현
 > - Faster-RCNN 모델 실험&튜닝
@@ -31,7 +34,10 @@
 > - ATSS dyhead 모델 실험
 
 ## 최종 모델 및 결과
-> ![image (6)](https://user-images.githubusercontent.com/48004826/205533073-b9e1c4ec-2fb0-4653-8097-f8a923e53719.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/48004826/205533073-b9e1c4ec-2fb0-4653-8097-f8a923e53719.png" width="600">
+</p>
+
 > - 1stage, 2 stage 각각 WBF 앙상블 한 뒤에, 두 결과물을 다시 앙상블
 > - PL : Pseudo Labeling, 일부 모델에 한해 pseudo labeling 하여 추가 학습
 > 
