@@ -22,6 +22,22 @@
 
 </div align="center">
 
+## Timeline & My Role
+![timeline](image\prj_timeline.png)
+> - github Issue, PR template 등록 및 사용권장
+> - WandB logging 구현
+> - Faster-RCNN 모델 실험&튜닝
+> - Cascade-RCNN 모델 실험&튜닝
+> - ATSS dyhead 모델 실험
+
+## 최종 모델 및 결과
+> ![image (6)](https://user-images.githubusercontent.com/48004826/205533073-b9e1c4ec-2fb0-4653-8097-f8a923e53719.png)
+> - 1stage, 2 stage 각각 WBF 앙상블 한 뒤에, 두 결과물을 다시 앙상블
+> - PL : Pseudo Labeling, 일부 모델에 한해 pseudo labeling 하여 추가 학습
+> 
+> ![image](https://user-images.githubusercontent.com/62556539/205196491-ecdcabd1-e4eb-4ff8-8607-61205d9b4ac6.png)
+
+
 ## Environments
 > - Ubuntu 18.04.5 LTS
 > - Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz
@@ -39,22 +55,6 @@
 >     └── yolov7          # 자체 라이브러리
 > └── notebooks           # EDA, ensemble, pseudo labeling 등
 > ```
-
-## Timeline & My Role
-> ![timeline](image\prj_timeline.png)
-> - github Issue, PR template 등록 및 사용권장
-> - WandB logging 구현
-> - Faster-RCNN 모델 실험&튜닝
-> - Cascade-RCNN 모델 실험&튜닝
-> - ATSS dyhead 모델 실험
-
-## 최종 모델 및 결과
-> ![image (6)](https://user-images.githubusercontent.com/48004826/205533073-b9e1c4ec-2fb0-4653-8097-f8a923e53719.png)
-> - 1stage, 2 stage 각각 WBF 앙상블 한 뒤에, 두 결과물을 다시 앙상블
-> - PL : Pseudo Labeling, 일부 모델에 한해 pseudo labeling 하여 추가 학습
-> 
-> ![image](https://user-images.githubusercontent.com/62556539/205196491-ecdcabd1-e4eb-4ff8-8607-61205d9b4ac6.png)
-
 
 ## 회고
 > - Git Convention을 정하고, 이슈, PR 등을 적극적으로 활용해보았고, 혼자서는 할 수 없는 좋은 협업 경험이었다.
